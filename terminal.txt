@@ -1,0 +1,17 @@
+& c:\Users\aksha\Desktop\breed_recognizer\venv\Scripts\Activate.ps1
+
+pip install -r requirements.txt
+
+python webcam_predict.py
+
+python predict_breed.py
+
+
+python train.py
+
+
+different gpu
+
+pip uninstall torch torchvision torchaudio
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
